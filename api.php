@@ -29,7 +29,7 @@ if ($method == "GET") {
         $habits[] = $row;
     }
 
-    echo json_encode($habits);
+    echoe json_encode($habits);
 }
 
 if ($method == "POST") {
