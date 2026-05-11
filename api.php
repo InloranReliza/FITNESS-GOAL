@@ -1,6 +1,6 @@
 <?php
 
-$host = "localhost";
+$host = "database";
 $user = "root";
 $password = "";
 $database = "habit_tracker";
@@ -50,6 +50,6 @@ if ($method == "POST") {
     }
 }
 
-$conn->close();;;;
+$conn->close();
 
 ?>
