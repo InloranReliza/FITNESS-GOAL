@@ -8,7 +8,7 @@ $port = 3306;
 
 $conn = new mysqli($host, $user, $password, $database, $port);
 
-if ($conn->connect_error) {
+if ($conn->connect_error) {{}
     die("Connection failed: " . $conn->connect_error);
 }
 
@@ -50,6 +50,6 @@ if ($method == "POST") {
     }
 }
 
-$conn->close();;;
+$conn->close();
 
 ?>
