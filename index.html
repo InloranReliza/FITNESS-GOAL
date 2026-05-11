@@ -318,7 +318,7 @@
             </div>
             <div class="task-buttons">
                 <button onclick="editTask(${index})" ${isDone ? "disabled" : ""}>Edit</button>
-                <button onclick="deleteTask(${index})">Delete</button>
+                <button onclick="deleteTask(${index})">Delete</button>>>
             </div>
         `;
         document.getElementById("taskList").appendChild(li);
@@ -328,7 +328,7 @@
         tasksData[index].done = !tasksData[index].done;
         saveTasks();
         renderTasks();
-        updateProgress();;;;
+        updateProgress();
     }
 
     function deleteTask(index) {
