@@ -23,7 +23,7 @@ if ($method == "GET") {
     $sql = "SELECT * FROM habits WHERE username='$username'";
     $result = $conn->query($sql);
 
-    $habits = [];
+    $habits = []; 
 
     while($row = $result->fetch_assoc()) {
         $habits[] = $row;
